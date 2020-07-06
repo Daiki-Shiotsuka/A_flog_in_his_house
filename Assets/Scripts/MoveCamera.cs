@@ -187,6 +187,7 @@ public class MoveCamera : MonoBehaviour
             }
             if (Math.Abs((m4Trans.position.x) - camerapos_x) < 0.1f && Math.Abs((m4Trans.position.z) - (camerapos_z)) < 0.1f)
             {
+                bf4 = 1;
                 memo4.SetActive(true);
             }
             else
@@ -195,6 +196,7 @@ public class MoveCamera : MonoBehaviour
             }
             if (Math.Abs((m5Trans.position.x) - camerapos_x) < 0.1f && Math.Abs((m5Trans.position.z) - (camerapos_z)) < 0.1f)
             {
+                bf5 = 1;
                 memo5.SetActive(true);
             }
             else

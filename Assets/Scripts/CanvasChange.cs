@@ -39,8 +39,8 @@ public class CanvasChange : MonoBehaviour {
 
     int RealTime()
     {
-        int D0 = 9;
-        int H0 = 11;
+        int D0 = 7;
+        int H0 = 20;
         int M0 = 0;
         int S0 = 0;
         int starttime = 0;
